@@ -1,0 +1,22 @@
+{
+  "@context": [
+    "https://www.w3.org/ns/did/v1",
+    "https://w3id.org/security/suites/jws-2020/v1"
+  ],
+  "id": "did:web:sunueng.github.io",
+  "assertionMethod": [
+    {
+      "id": "did:web:sunueng.github.io#9a19fb504f7c38ca0e95c61efdff327e063691ef6237f8e36e16f8727401a398",
+      "type": "JsonWebKey2020",
+      "controller": "did:web:sunueng.github.io",
+      "publicKeyJwk": {
+        "kty": "EC",
+        "crv": "P-256",
+        "x": "iuzSocN1ZYDYedvXPbVqrRo3vdy5CLpV8B3aSvIJbzA=",
+        "y": "3fvgsBsPVGhMsWnACtiG627nDX3uq3syeUfqvvzrndw=",
+        "kid": "9a19fb504f7c38ca0e95c61efdff327e063691ef6237f8e36e16f8727401a398",
+        "alg": "ES256"
+      }
+    }
+  ]
+}
